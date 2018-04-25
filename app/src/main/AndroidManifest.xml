@@ -10,16 +10,23 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Design.NoActionBar">
-        <activity android:name="com.example.android.audacity.MainActivity">
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity" android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< .merge_file_a16480
         <activity android:name="com.example.android.audacity.SignupActivity" />
         <activity android:name="com.example.android.audacity.GettingStartedActivity"/>
+=======
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".LoginActivity"  />
+
+>>>>>>> .merge_file_a14976
     </application>
 
 </manifest>
